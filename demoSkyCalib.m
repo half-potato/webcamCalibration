@@ -22,8 +22,8 @@ invCamResponsePath = './invCamResponse/resp.mat';
 nbRandomPixelsToKeep = 1000;
 
 % image dimensions
-imgWidth = 720;
-imgHeight = 540;
+imgWidth = 1920;
+imgHeight = 1080;
 
 %% Load sky mask
 skyMask = im2double(imread(skyMaskPath))>0.5;

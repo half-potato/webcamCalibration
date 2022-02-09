@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % function M = getTurbidityMapping(channelId)
 %  Returns the turbidity mapping between turbidity and the constants
-%  (a,b,c,d,e) from the Perez sky model. Taken from [Preetham et al., SISGGRAPH '99].
+%  (a,b,c,d,e) from the Perez sky model. Taken from [Preetham et al., SIGGRAPH '99].
 % 
 % Input parameters:
 %  - channelId: [1,3] channel in the xyY space
@@ -12,7 +12,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function M = getTurbidityMapping(channelId)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright 2006-2010 Jean-Francois Lalonde
+% Copyright 2006-2009 Jean-Francois Lalonde
 % Carnegie Mellon University
 % Do not distribute
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

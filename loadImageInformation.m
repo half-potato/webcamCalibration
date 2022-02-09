@@ -1,5 +1,5 @@
 function [xp, yp, lp] = loadImageInformation(imgPath, invCamResponse, ...
-    skyMask, xp, yp, nbRandomPixelsToKeep, varargin)
+    skyMask, xp, yp, nbRandomPixelsToKeep)%, varargin)
 % Loads image information necessary for the sky fitting stages.
 %
 %   [xp, yp, lp] = loadImageInformation(imgPath, invCamResponse, ...
@@ -35,7 +35,7 @@ threshDark = 2/255;
 % use luminance only?
 luminanceOnly = true;
 
-parseVarargin(varargin{:});
+%parseVarargin(varargin{:});
 
 % Read and correct the image
 if ischar(imgPath)
